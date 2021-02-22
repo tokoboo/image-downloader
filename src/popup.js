@@ -677,7 +677,7 @@ a{3,6} → Between 3 and 6 of a`}
 
   <div id="images_cache"></div>
 
-  <table id="images_table" class="grid"></table>
+  <div class="images_wrapper"><table id="images_table" class="grid"></table></div>
 `);
 
 chrome.downloads.onDeterminingFilename.addListener(suggestNewFilename);
